@@ -996,7 +996,7 @@ footer {
   color: #000000;
   font-size: 0.9em;
   font-weight: 400;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   /*padding: 10px;*/
 }
 footer ul {
@@ -1162,7 +1162,7 @@ label {
   background-color: white;
 }
 .section-dark {
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 .highlight {
   background-color: #fce2e6;
@@ -1292,7 +1292,7 @@ ul.siteTags li {
   color: black;
 }
 .projectRow:nth-child(2n+1) {
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 .projectRow:nth-child(2n+1) .sitePreview {
   float: right;
@@ -1317,7 +1317,7 @@ ul.siteTags li {
   border-color: rgba(244, 157, 170, 0.8);
 }
 .dark {
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
 }
 .dark p,
 .dark ul,
