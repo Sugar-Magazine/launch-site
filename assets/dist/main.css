@@ -1360,3 +1360,8 @@ ul.siteTags li {
 #about code {
   background: #e6e6e6;
 }
+@media only screen and (min-width: 0px) and (max-width: 749px) {
+  .button {
+    padding: 0 15px;
+  }
+}
