@@ -92,6 +92,7 @@
   #main-title .thin {
     margin-left: 0.3em;
     display: inline;
+    font-size: 1em;
   }
 }
 .no-js .main-title-loading {
