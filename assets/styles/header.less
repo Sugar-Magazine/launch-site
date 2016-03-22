@@ -11,6 +11,25 @@
   z-index: 1;
 }
 
+.pineapple-header:extend(.large-header) {
+  background-image: url('@{imagePath}pineapple.jpg');
+  text-align: center;
+
+  #main-title {
+    top: 30%;
+
+    h1 {
+      font-size: 4em;
+    }
+
+    p {
+      font-size: 2em;
+      color: white;
+    }
+
+  }
+}
+
 #demo-canvas {
   background-color: fade(@highlight-color, 20%);
 }

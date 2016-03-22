@@ -1,5 +1,6 @@
 /* Animated Header */
-.large-header {
+.large-header,
+.pineapple-header {
   position: relative;
   width: 100%;
   background: #f5a6b2;
@@ -8,6 +9,20 @@
   background-size: cover;
   background-position: center center;
   z-index: 1;
+}
+.pineapple-header {
+  background-image: url('../img/pineapple.jpg');
+  text-align: center;
+}
+.pineapple-header #main-title {
+  top: 30%;
+}
+.pineapple-header #main-title h1 {
+  font-size: 4em;
+}
+.pineapple-header #main-title p {
+  font-size: 2em;
+  color: white;
 }
 #demo-canvas {
   background-color: rgba(239, 111, 130, 0.2);
